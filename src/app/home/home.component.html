@@ -1,0 +1,7 @@
+<div>
+    <h6>LISTA DE POKEMONS</h6>
+    <div *ngFor="let pok of pokemon" class="lista">
+        <div>{{pok.name}}</div>
+        <button (click)="verPokemon(pok)"style="margin-left: 4px">VER</button>
+    </div>
+</div>

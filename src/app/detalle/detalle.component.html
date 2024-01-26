@@ -1,0 +1,11 @@
+<div>
+  <div *ngIf="PokemonElegido">
+    <h4>NOMBRE: {{ PokemonElegido.name }}</h4>
+
+    <p>EXPERIENCIA: {{ PokemonElegido.base_experience }}</p>
+
+    <p>ALTURA: {{ PokemonElegido.height }}</p>
+    <p>PESO: {{ PokemonElegido.weight }}</p>
+  </div>
+  <button (click)="volver()">VOLVER</button>
+</div>
